@@ -202,6 +202,9 @@
     }
 }
 
+.carousel-caption .btn:hover {
+background-color: var(--cart-number-bg-color);
+}
 
 @media screen and (max-width: 1350px) {
     .frame.top {
