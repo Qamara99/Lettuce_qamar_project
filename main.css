@@ -5,6 +5,7 @@
     --green-dark-color: #25634D;
     --green-light-color: #47A15D;
     --green-yellow-color: #B8D94F;
+    --green-light2-color:#389D50;
 }
 
 .navbar {
@@ -748,5 +749,82 @@ background-color: var(--green-light-color);
         margin-right: 130px;
 
           }
+}
+
+/* quality banner */
+
+.quality-banner{
+    margin-top: 90px;
+    
+}
+
+.quality-banner img{
+    filter: brightness(65%);
+    height: 69vh;
+    width: 100%;
+}
+
+
+.quality-banner .frame.top {
+    top: -0.7%;
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.quality-banner .frame.bottom {
+    bottom: -0.7%;
+    transform: translateY(50%);
+}
+
+
+
+.quality-banner .quality-info{
+   
+ z-index: 3;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translateY(-50%);
+
+}
+
+
+
+.quality-banner .quality-info h1 {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 120px;
+    max-width: 200px;
+    letter-spacing: 3px;
+
+}
+.quality-banner .quality-info .btn{
+ width: 160px;
+    padding: 12px 15px;
+    background-color: var(--green-light2-color);
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+
+
+    
+}
+
+.quality-banner .quality-info .btn:hover {
+background-color: var(--cart-number-bg-color);
+}
+
+
+@media screen and (max-width: 600px) {
+.quality-banner .quality-info h1{
+        font-size: 80px;
+    max-width: 160px;
+    }
+
+
+    .quality-banner .quality-info .btn{
+       margin-left:30px;
+    }
 }
 /* end of order-blog */
