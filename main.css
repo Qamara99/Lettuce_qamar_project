@@ -636,4 +636,117 @@ background-color: var(--green-light-color);
 
 /* end of category section */
 
+/* card order-blog */
 
+
+.card1-blog {
+      width: 570px;
+    height: 326px;
+    padding-top: 50px;
+    background-image: url("./assets/img/home-blog-order/bg-blog.webp");
+}
+
+.card1-blog .card1-blog-info {
+    font-size: 35px;
+    max-width: 58%;
+    font-family: "Rubik", sans-serif;
+    padding: 50px 81px 20px 76px;
+    text-align: end;
+    letter-spacing: 0;
+    line-height: 35px;
+
+}
+.card1-blog .btn {
+    width: 150px;
+    padding: 12px 35px;
+    background-color: var(--green-dark-color);
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-left: 100px;
+    font-weight: 600;
+}
+
+
+.card2-online {
+    padding-left: 30%;
+      width: 570px;
+    height: 326px;
+    padding-top: 50px;
+    background-image: url("./assets/img/home-blog-order/bg-online-order.webp");
+}
+
+.card2-online .card2-online-info {
+   margin-left: 30%;
+    font-size: 35px;
+    /* margin-bottom: 17%; */
+    max-width: 250px;
+    font-family: "Rubik", sans-serif;
+    /* padding: 50px 75px 20px 110px; */
+    text-align: start;
+    letter-spacing: 0;
+    line-height: 35px;
+
+}
+.card2-online .btn {
+    width: 180px;
+    padding: 12px 35px;
+    background-color: var(--green-dark-color);
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    margin-top: 6%;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 1280px) {
+   .card1-blog{
+        background-image: none;
+        background-color: var(--green-light-color);
+        width: 450px;
+        height: 250px;
+    }
+
+   .card2-online{
+        background-image: none;
+        background-color: var(--cart-number-bg-color);
+         width: 450px;
+        height: 250px;
+        align-items: end;
+    }
+
+    .card1-blog .card1-blog-info{
+        max-width:100%;
+        font-size: 25px;
+        padding: 0px;
+        text-align: center;
+       
+       
+    }
+     .card2-online .card2-online-info{
+        
+   max-width:300px;
+   width: 400px;
+        font-size: 25px;
+       margin-right: 25%;
+        text-align: center;
+    
+
+  
+     }
+
+       .card1-blog .btn{
+        margin-left: 150px;
+       }
+
+          .card2-online  .btn{
+        margin-right: 130px;
+
+          }
+}
+/* end of order-blog */
