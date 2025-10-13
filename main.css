@@ -70,7 +70,7 @@
 
 }
 
-.carousel-indicators [data-bs-target] {
+.carousel-indicators [data-bs-target]{
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -860,7 +860,6 @@
 /* end of order-blog */
 
 /* shop-online */
-
 .shop-online {
     position: relative;
     margin-top: 90px;
@@ -968,3 +967,152 @@
 }
 
 /* end of shop-online */
+
+/* carousel 2 green  */
+.carousel2 {
+    margin-top: 90px;
+  cursor: grab;
+}
+
+
+
+.carousel2 .carousel-caption {
+    z-index: 3;
+    position: absolute;
+    top: 15%;
+    left: 13%;
+    transform: none !important;
+
+}
+
+.carousel2 .carousel-caption p{
+    color: var(--green-light2-color);
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+font-weight: 500;
+}
+
+.carousel2 .carousel-caption h2{
+  font-size: 45px;
+   line-height: 45px;
+    padding-bottom: 30px; 
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    max-width: 90%;
+    padding-left: 10%;
+    padding-top: 30px;
+
+    
+}
+
+
+.carousel2 .carousel-caption span{
+  font-size: 19px;
+ font-family: "Rubik", sans-serif;
+
+    
+
+    
+}
+
+
+.carousel2 .carousel-indicators {
+
+    gap: 16px;
+    top: 90%;
+    z-index: 10;
+    
+}
+
+.carousel2 .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 6px;
+    transition: all 0.3s ease;
+    border: none;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.carousel2 .carousel-indicators .active {
+    background-color: var(--green-light-color);
+    opacity: 1;
+    
+}
+
+.carousel2 img {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+ 
+}
+
+@media screen and (max-width: 1200px) {
+   .carousel2 {
+        margin-top: 300px;
+    }
+
+    .carousel2 .carousel-caption {
+
+    top: 10%;
+  
+}
+
+.carousel2 .carousel-indicators {
+
+ 
+    top: 95%;
+
+    
+}
+}
+
+
+
+@media screen and (max-width: 940px) {
+ 
+    .carousel2 .carousel-caption {
+
+    top: 5%;
+  
+}
+
+.carousel2 .carousel-indicators {
+
+ 
+    top: 97%;
+
+    
+}
+.carousel2 .carousel-caption h2{
+  font-size: 35px;}
+}
+
+@media screen and (max-width: 770px) {
+   .carousel2 {
+        margin-top: 500px;
+    }
+
+    .carousel2 .carousel-caption h2{
+  font-size: 30px;
+
+width: 100%;
+    
+}
+}
+
+@media screen and (max-width: 550px) {
+ 
+
+    .carousel2 .carousel-caption h2{
+  font-size: 20px;
+
+width: 100%;
+    
+}
+}
+
+/* end of carousel 2 */
