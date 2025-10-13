@@ -964,6 +964,10 @@
     .shop-online {
         margin-top: 400px;
     }
+
+     .shop-online img {
+        width: 400px;
+    }
 }
 
 /* end of shop-online */
