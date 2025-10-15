@@ -1120,3 +1120,108 @@ width: 100%;
 }
 
 /* end of carousel 2 */
+
+/* instagram section */
+.instagram-section{
+margin-top: 80px;
+height: 100vh;
+}
+.instagram-section .row {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.instagram-section h1{
+     font-size: 45px;
+   font-weight: bold;
+    padding-bottom: 3px;
+    font-family: "Rubik", sans-serif;
+    color: var(--green-yellow-color);
+}
+
+.instagram-section p{
+      font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 25px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    color: var(--green-light-color);
+}
+.instagram-section img{
+width: 270px;
+height: 270px;
+position: block;
+transition: transform 0.4s ease, filter 0.4s ease;
+}
+.instagram-section .img-insta:hover img{
+    filter: brightness(65%);
+}
+
+.instagram-section .icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 12px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  visibility: hidden; 
+  /* opacity: 0; */
+/* transition: opacity 0.4s ease;  */
+/* text-shadow: 0 0 5px rgba(0,0,0,0.7); */
+transition: transform 0.3s ease, visibility 0.3s ease;
+
+}
+
+.instagram-section .img-insta:hover  .icons {
+   
+ visibility: visible;
+ /* opacity: 1; */
+  transform: translate(-50%, -50%) scale(1);
+
+
+}
+
+.instagram-section .icons i {
+  margin-right: 10px;
+  
+}
+
+
+.instagram-section .btn{
+ width: 160px;
+    padding: 12px 20px;
+    background-color: var(--cart-number-bg-color);
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 25px;
+  
+    margin-top: 40px;
+}
+
+
+@media screen and (max-width: 1200px) {
+ 
+
+   .instagram-section img{
+width: 200px;
+height: 200px;
+    
+}
+}
+
+
+@media screen and (max-width: 990px) {
+ 
+
+   .instagram-section img{
+width: 150px;
+height: 150px;
+
+    
+}
+}
+/* end of instagram section */
