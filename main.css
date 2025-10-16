@@ -1225,3 +1225,72 @@ height: 150px;
 }
 }
 /* end of instagram section */
+
+/* shipping footer */
+.shipping-footer{
+    background-color: #25634D;
+    height: 45vh;
+    margin-bottom: 50px;
+}
+.shipping-footer p{
+  font-family: "Shadows Into Light", cursive;
+    font-size: 40px;
+  color: white;
+  font-weight: 600;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+.shipping-footer p span{
+    color: var(--cart-number-bg-color);
+}
+
+.shipping-footer .btn{
+ width: 220px;
+    padding: 12px 35px;
+    background-color: var(--green-light-color);
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-left: 43%;
+    margin-top: 20px;
+}
+
+.shipping-footer .frame.bottom {
+    bottom: -2%;
+    transform: translateY(50%);
+}
+
+
+
+@media screen and (max-width: 570px) {
+ 
+
+.shipping-footer{
+   margin-top: 200px;
+}
+
+
+.shipping-footer .btn{
+   margin-left: 120px;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 370px) {
+ 
+
+.shipping-footer .btn{
+     width: 180px;
+    padding: 8px 25px;
+    background-color: var(--green-light-color);
+    font-family: "Oswald", sans-serif;
+    font-size: 12px;
+   margin-left: 80px;
+}
+}
+/* end of shipping footer */
