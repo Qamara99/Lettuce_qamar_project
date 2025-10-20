@@ -1294,3 +1294,119 @@ height: 150px;
 }
 }
 /* end of shipping footer */
+
+/* footer */
+.footer{
+  /* height: 45vh;
+  margin-top: 90px; */
+
+   margin-top: 90px;
+  padding: 40px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  gap: 20px;
+  transition: all 0.3s ease;
+}
+
+.footer .row {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.footer > div {
+  flex: 1 1 0;
+  min-width: 200px; 
+}
+.footer ul li a{
+    color: var(--nav-gey-color);
+    /* font-size: 20px; */
+    font-size: clamp(12px, 1.3vw, 20px);
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+
+}
+
+.footer .calling{
+    color: var(--nav-gey-color);
+    /* font-size: 19px; */
+    font-size: clamp(12px, 1.2vw, 19px);
+    font-family: "Rubik", sans-serif;
+    line-height: 23.4px;
+
+}
+
+.footer .tel {
+    color: var(--green-yellow-color);
+    /* font-size: 25px; */
+     font-size: clamp(14px, 1.8vw, 25px);
+    font-family: "Rubik", sans-serif;
+line-height: 32.8px;
+font-weight: bold;
+padding-bottom: 25px;
+}
+
+.footer .address, .footer span{
+     /* font-size: 18px; */
+       font-size: clamp(10px, 1.2vw, 18px);
+    font-family: "Rubik", sans-serif;
+    max-width: 260px;
+    color: var(--nav-gey-color);
+    text-align: end;
+    
+}
+.footer img {
+  width: clamp(80px, 10vw, 125px);
+  height: auto;
+}
+/* end of footer */
+
+/* footer pattern */
+.footer-pattern-1{
+     background-image: url("./assets/img/footer-pattern.webp");
+     height: 100px;
+    
+}
+.footer-pattern-1 p{
+     /* bottom: 25%; */
+    padding-top: 2%;
+    /* left: 13%; */
+     font-size: clamp(12px, 1.3vw, 20px);
+    font-family: "Rubik", sans-serif;
+    color: var(--nav-gey-color);
+
+}
+
+.footer-pattern-1 span{
+    font-size: clamp(12px, 1.3vw, 20px);
+    font-family: "Rubik", sans-serif;
+    color: var(--nav-gey-color);
+    padding-right: 25px;
+}
+.following-social{
+    bottom: 35%;
+    right: 13%;
+}
+.social-icon {
+  display: inline-flex;                
+  align-items: center;
+  justify-content: center;
+  width:  clamp(20px, 1.3vw, 38px);                       
+  height:   clamp(20px, 1.3vw, 38px);  
+  background-color: var(--cart-number-bg-color);           
+  color: white;                        
+                                
+  transition: all 0.3s ease;          
+   font-size: clamp(7px, 1.3vw, 15px);                   
+}
+
+.social-icon:hover {
+  background-color: var(--green-light2-color);       
+}
+
+@media screen and (max-width: 600px) {
+    .footer-pattern-1 p{
+      padding-bottom:45px ;
+    }
+}
+/* end of footer pattern */
