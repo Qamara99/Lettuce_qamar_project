@@ -1517,8 +1517,8 @@ padding-bottom: 25px;
   display: inline-flex;                
   align-items: center;
   justify-content: center;
-  width:  clamp(20px, 1.3vw, 38px);                       
-  height:   clamp(20px, 1.3vw, 38px);  
+  width:  clamp(20px, 2vw, 38px);                       
+  height:   clamp(20px, 2vw, 38px);  
   background-color: var(--cart-number-bg-color);           
   color: white;                        
                                 
