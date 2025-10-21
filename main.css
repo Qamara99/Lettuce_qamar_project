@@ -6,6 +6,7 @@
     --green-light-color: #47A15D;
     --green-yellow-color: #B8D94F;
     --green-light2-color: #389D50;
+    --grey-color-2:#AAA79D;
 }
 
 .navbar {
@@ -661,6 +662,131 @@
 
 
 /* end of category section */
+
+/* product types */
+
+
+.products-type{
+    margin-top: 90px;
+}
+.products-type .row{
+    margin-left: 2%;
+
+}
+.products-type .products-title h1{
+        /* font-size: 45px; */
+        font-size: clamp(25px, 1.3vw, 45px);
+        font-weight: bold;
+    font-family: "Rubik", sans-serif;
+    color: var(--green-yellow-color);
+}
+
+.products-type .products-title span{
+    /* font-size: 20px; */
+    font-size: clamp(10px, 1.3vw, 20px);
+    line-height: 25px;
+    padding-bottom: 50px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    color: var(--green-light-color);
+}
+
+
+.products-type .nav .nav-item .nav-link{
+    color: var(--nav-gey-color);
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    /* font-size: 16px; */
+    font-size: clamp(9px, 1.3vw, 16px);
+     background-color: var(--nav-bg-color);
+}
+
+.products-type .nav .nav-item .nav-link:hover{
+      background-color: var(--cart-number-bg-color);
+      color: white;
+}
+.tab-content{
+    padding-top: 60px;
+}
+.tab-content .row{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.tab-content .card {
+    /* width: 15rem; */
+    width: clamp(12rem, 18vw, 15rem);
+    border-radius: 0;
+  
+}
+.tab-content .card .badge{
+    background-color: var(--green-yellow-color);
+   
+    /* width: 44px; */
+    /* height: 44px; */
+    width: clamp(30px, 3vw, 44px);
+  height: clamp(30px, 3vw, 44px);
+    top: 3%;
+    right: 3%;
+    text-align: center;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    /* font-size: 11px; */
+    font-size: clamp(4px, 1.3vw, 11px);
+}
+.tab-content .card a.card-text{
+/* font-size: 19px; */
+    font-size: clamp(13px, 1.1vw, 19px);
+
+    font-family: "Rubik", sans-serif;
+color: var(--nav-gey-color);
+cursor: pointer;
+
+}
+
+.tab-content .card a.card-text:hover{
+color: var(--cart-number-bg-color);
+}
+
+.tab-content .card p.card-text{
+   /* font-size: 20px; */
+     font-size: clamp(14px, 1.2vw, 20px);
+
+    font-family: "Rubik", sans-serif;
+color: var(--green-yellow-color); 
+font-weight: bold;
+padding-top: 5px;
+}
+
+.tab-content .card span{
+    color: var(--grey-color-2); 
+     /* font-size: 16px; */
+      font-size: clamp(12px, 1vw, 16px);
+
+     padding-right: 7px;
+    
+}
+
+.tab-content .card .card-btn-cart1 {
+    /* width: 30px;
+    height: 30px; */
+   width: clamp(22px, 2vw, 30px);
+  height: clamp(22px, 2vw, 30px);
+   
+    background-color: var(--green-dark-color);
+}
+
+.tab-content .card .card-btn-cart2 {
+    /* width: 30px;
+    height: 30px; */
+     width: clamp(22px, 2vw, 30px);
+  height: clamp(22px, 2vw, 30px);
+    background-color: var(--cart-number-bg-color);
+}
+
+
+
+/* end of product types */
 
 /* card order-blog */
 
