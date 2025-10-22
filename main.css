@@ -1745,3 +1745,61 @@
 }
 
 /* end of footer pattern */
+
+/* login modal */
+.modal .modal-content{
+    background-color: var(--nav-bg-color);
+    border-radius: 0;
+}
+
+.modal .modal-content li button{
+    color: var(--nav-gey-color)!important;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+   background-color: transparent;
+   width: 100%;
+   
+}
+
+.modal .modal-content li button.active{
+    color: var(--green-dark-color)!important;
+   background-color: transparent;  
+   border-top: solid 2px black;
+   border-radius: 0;
+}
+
+.modal .form-control{
+   padding: 20px 30px;
+}
+.modal .mail::placeholder,.modal .password::placeholder {
+    color: var(--green-light2-color);
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+}
+
+.modal .forgot-password{
+    color: var(--green-yellow-color);
+     font-size: 16px;
+    font-family: "Rubik", sans-serif;
+}
+
+.modal .form-check label{
+    color: var(--nav-gey-color);
+     font-size: 16px;
+    font-family: "Rubik", sans-serif;
+}
+
+.modal .form-check .form-check-input{
+  background-color: transparent;
+}
+
+.modal .submit-btn{
+    margin-top: 30px;
+    background-color: var(--green-light-color);
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    /* width: 100px; */
+    border-radius: 0;
+    padding: 16px 40px;
+}
+/* end login modal */
