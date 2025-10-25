@@ -1,0 +1,449 @@
+:root {
+    --nav-bg-color: #f7f5f0;
+    --cart-number-bg-color: #fed34a;
+    --nav-gey-color: #868378;
+    --green-dark-color: #25634D;
+    --green-light-color: #47A15D;
+    --green-yellow-color: #B8D94F;
+    --green-light2-color: #389D50;
+    --grey-color-2: #AAA79D;
+    --red-color:#E41111;
+    
+}
+
+.navbar {
+    background-color: var(--nav-bg-color);
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar .navbar-brand,
+.navbar a {
+    color: var(--nav-gey-color);
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.navbar .badge {
+    background-color: var(--cart-number-bg-color);
+    font-family: "Oswald", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 5px 10px 6px 10px;
+
+}
+
+.navbar .btn-delivery {
+    background-color: var(--cart-number-bg-color);
+    font-family: "Oswald", sans-serif;
+    color: #ffff;
+    font-size: 16px;
+    padding: 10px 22px;
+    letter-spacing: 1px;
+    font-weight: 500;
+
+}
+
+.navbar .search-btn {
+    font-size: 18px;
+    color: var(--nav-gey-color);
+
+}
+
+.navbar-2 {
+    padding-top: 31px;
+}
+
+.navbar {
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+/* end of navbar */
+
+
+/* navbar3 */
+.nav-breadcrumb{
+    background-image: url("../img/banner.webp");
+    height: 140px;
+    border: none;
+    margin-top: 40px;
+    --bs-breadcrumb-divider: '>';
+    
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  color: var(--green-light2-color);
+   font-family: "Rubik", sans-serif;
+ font-size: 16px;
+ text-align: center;
+ font-weight: 300;
+
+}
+.nav-breadcrumb .breadcrumb{
+    margin-left: 15%;
+}
+.nav-breadcrumb .breadcrumb-item a{
+color: var(--nav-gey-color);
+ font-family: "Oswald", sans-serif;
+ font-size: 18px;
+ font-weight: 500;
+letter-spacing: -0.02px;
+}
+
+.nav-breadcrumb li.active  {
+    color: var(--green-light2-color);
+     font-family: "Oswald", sans-serif;
+ font-size: 18px;
+ font-weight: 500;
+letter-spacing: -0.02px;
+
+}
+/* best recipes */
+.best-recipes {
+    margin-top: 90px;
+}
+
+.best-recipes h1 {
+    font-size: 45px;
+
+    font-family: "Rubik", sans-serif;
+    color: var(--green-yellow-color);
+}
+
+.best-recipes .subtitle-resipes {
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 50px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    color: var(--green-light-color);
+}
+
+
+.best-recipes .row{
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+ .best-recipes .card {
+    
+    border: none;
+    background-color: var(--nav-bg-color);
+    width:98%;
+    height: 80vh;
+    border-radius: 0%;
+    margin-bottom: 30px;
+    
+
+}
+
+
+ .best-recipes   .card img {
+      width: 86%;
+      height: 200px;
+      margin-top: 40px ;
+      margin-bottom:15px;
+      margin-left: 40px;
+      margin-right: 45px;
+      border-radius: 0%;
+      position: relative;
+      
+    }
+
+ .best-recipes  .spicy-level {
+    font-family:  "Oswald", sans-serif;
+      position: absolute;
+      top: 40px;
+      right: 32px;
+      background: none;
+      color: white;
+      font-weight: 400;
+      font-size: 0.8rem;
+      background-color: var(--red-color) ;
+      padding: 1px 2px;
+      
+     
+    }
+     .best-recipes  .spicy-level i{
+        padding:1px 3px;
+         
+     }
+
+  .best-recipes  .price-tag {
+    font-family: "Shadows Into Light", cursive;
+      position: absolute;
+      top: 190px;
+      right: 40px;
+      background: none;
+      color: white;
+      font-weight: bold;
+      font-size: 2.5rem;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    }
+
+  .best-recipes  .card-body {
+      padding: 25px;
+    }
+
+  .best-recipes  .card-date {
+    font-family: "Oswald", sans-serif;
+      color: var(--green-yellow-color);
+      font-weight: 500;
+      font-size: 0.8rem;
+    }
+
+  .best-recipes  .card-title {
+      color:var(--green-dark-color);
+      font-weight: 700;
+      margin-top: 5px;
+      font-size: 28px;
+    }
+
+  .best-recipes  .card-text {
+      color: var(--nav-gey-color);
+      font-size: 18px;
+      margin-top: 15px;
+      margin-bottom: 20px;
+    }
+
+  .best-recipes  .card-footer {
+    
+       font-family: "Oswald", sans-serif;
+      font-weight: 500;
+      font-size: 0.8rem;
+      gap: 29px;
+      color: var(--nav-gey-color);
+      letter-spacing: 1.2px;
+    }
+
+ .best-recipes   .card-footer i {
+      margin-right: 5px;
+    }
+
+    @media screen and (max-width: 1300px) {
+   .best-recipes  .price-tag {
+ 
+      top: 160px;}
+}
+
+
+   @media screen and (max-width: 1200px) {
+   .best-recipes  .price-tag {
+  font-size: 2.1rem;
+   right: 30px;
+      top: 120px;}
+}
+
+@media screen and (max-width: 995px) {
+   .best-recipes  .price-tag {
+  font-size: 2.5rem;
+   right: 40px;
+      top: 160px;}
+}
+
+
+@media screen and (max-width: 770px) {
+ .best-recipes .card {
+    
+    border: none;
+    background-color: var(--nav-bg-color);
+    width: 520px;
+    height: 80vh;
+    border-radius: 0%;
+    margin-bottom: 30px;
+    
+
+}}
+/* end best recipes */
+
+/* banner slash */
+.banner-slash img{
+    height: 2vh;
+    width: 100%;
+    margin-top: 80px;
+}
+/* footer */
+.footer {
+    /* height: 45vh;
+  margin-top: 90px; */
+
+    margin-top: 90px;
+    padding: 40px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 20px;
+    transition: all 0.3s ease;
+}
+
+.footer .row {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer>div {
+    flex: 1 1 0;
+    min-width: 200px;
+}
+
+.footer ul li a {
+    color: var(--nav-gey-color);
+    /* font-size: 20px; */
+    font-size: clamp(12px, 1.3vw, 20px);
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+
+}
+
+.footer .calling {
+    color: var(--nav-gey-color);
+    /* font-size: 19px; */
+    font-size: clamp(12px, 1.2vw, 19px);
+    font-family: "Rubik", sans-serif;
+    line-height: 23.4px;
+
+}
+
+.footer .tel {
+    color: var(--green-yellow-color);
+    /* font-size: 25px; */
+    font-size: clamp(14px, 1.8vw, 25px);
+    font-family: "Rubik", sans-serif;
+    line-height: 32.8px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.footer .address,
+.footer span {
+    /* font-size: 18px; */
+    font-size: clamp(10px, 1.2vw, 18px);
+    font-family: "Rubik", sans-serif;
+    max-width: 260px;
+    color: var(--nav-gey-color);
+    text-align: end;
+
+}
+
+.footer img {
+    width: clamp(80px, 10vw, 125px);
+    height: auto;
+}
+
+/* end of footer */
+
+/* footer pattern */
+.footer-pattern-1 {
+    background-image: url("../img/footer-pattern.webp");
+    height: 100px;
+
+}
+
+.footer-pattern-1 p {
+    /* bottom: 25%; */
+    padding-top: 2%;
+    /* left: 13%; */
+    font-size: clamp(12px, 1.3vw, 20px);
+    font-family: "Rubik", sans-serif;
+    color: var(--nav-gey-color);
+
+}
+
+.footer-pattern-1 span {
+    font-size: clamp(12px, 1.3vw, 20px);
+    font-family: "Rubik", sans-serif;
+    color: var(--nav-gey-color);
+    padding-right: 25px;
+}
+
+.following-social {
+    bottom: 35%;
+    right: 13%;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: clamp(20px, 2vw, 38px);
+    height: clamp(20px, 2vw, 38px);
+    background-color: var(--cart-number-bg-color);
+    color: white;
+
+    transition: all 0.3s ease;
+    font-size: clamp(7px, 1.3vw, 15px);
+}
+
+.social-icon:hover {
+    background-color: var(--green-light2-color);
+}
+
+@media screen and (max-width: 600px) {
+    .footer-pattern-1 p {
+        padding-bottom: 45px;
+    }
+}
+
+/* end of footer pattern */
+
+/* login modal */
+.modal .modal-content{
+    background-color: var(--nav-bg-color);
+    border-radius: 0;
+}
+
+.modal .modal-content li button{
+    color: var(--nav-gey-color)!important;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+   background-color: transparent;
+   width: 100%;
+   
+}
+
+.modal .modal-content li button.active{
+    color: var(--green-dark-color)!important;
+   background-color: transparent;  
+   border-top: solid 2px black;
+   border-radius: 0;
+}
+
+.modal .form-control{
+   padding: 20px 30px;
+}
+.modal .mail::placeholder,.modal .password::placeholder {
+    color: var(--green-light2-color);
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+}
+
+.modal .forgot-password{
+    color: var(--green-yellow-color);
+     font-size: 16px;
+    font-family: "Rubik", sans-serif;
+}
+
+.modal .form-check label{
+    color: var(--nav-gey-color);
+     font-size: 16px;
+    font-family: "Rubik", sans-serif;
+}
+
+.modal .form-check .form-check-input{
+  background-color: transparent;
+}
+
+.modal .submit-btn{
+    margin-top: 30px;
+    background-color: var(--green-light-color);
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    /* width: 100px; */
+    border-radius: 0;
+    padding: 16px 40px;
+}
+/* end login modal */
