@@ -173,6 +173,52 @@ letter-spacing: -0.02px;
 
 /* end of cards */
 
+/* contact form */
+.contact-form h1{
+        font-size: 45px;
+    padding-top: 100px;
+    padding-bottom: 8px;
+    font-family: "Rubik", sans-serif;
+    color: var(--green-yellow-color);
+}
+
+.contact-form p{
+      font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 50px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    color: var(--green-light-color);
+}
+
+.contact-form .form-control::placeholder {
+  
+    color: var(--nav-gey-color);
+     font-family: "Rubik", sans-serif;
+        font-size: 18px;
+        padding: 0;
+
+}
+
+.contact-form .form-control:focus{
+     box-shadow: none !important;
+    border-bottom: 2px solid var(--cart-number-bg-color) !important;
+}
+
+.contact-form   button{
+    width: 176px;
+    padding: 12px 35px;
+    background-color: var(--green-light-color);
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-left: 50px;}
+  .contact-form  button:hover {
+  background-color: var(--cart-number-bg-color);
+}
+/* end contact form */
+
 /* banner slash */
 .banner-slash img{
     height: 2vh;
